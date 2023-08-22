@@ -29,4 +29,4 @@ Para rodar este projeto na sua maquina basta seguir o passo a passo abaixo:
   remote: Total 9 (delta 0), reused 6 (delta 0), pack-reused 0
   Receiving objects: 100% (9/9), done.`
 
-8. Após clonar o diretório basta ir na basta Login/ e executar o index.html
+8. Após clonar o repositório basta ir na pasta Login/ e executar o index.html

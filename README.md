@@ -30,3 +30,5 @@ Para rodar este projeto na sua maquina basta seguir o passo a passo abaixo:
   Receiving objects: 100% (9/9), done.`
 
 8. Após clonar o repositório basta ir na pasta Login/ e executar o index.html
+
+9. Para fazer o login inserir os dados "teste@gmail.com" e "teste".

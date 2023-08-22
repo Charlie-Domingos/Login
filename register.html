@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Register</title>
-  </head>
-  <body>
-    <div id="container-register">
-      <form id="register-form">
-        <h2>Register</h2>
-          <label>
-              <input class="input-block" type="text" id="name" required name="name" placeholder="Name">
-          </label><br><br>
 
-          <label>
-              <input class="input-block" type="email" id="email" required name="email" placeholder="E-mail">
-          </label><br><br>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Register</title>
+</head>
 
-          <input class="input-block" type="password" id="password" required name="password" placeholder="Password">
-          </label><br><br>
+<body>
+  <div id="container-register">
+    <form id="register-form">
+      <h2>Register</h2>
+      <label>
+        <input class="input-block" type="text" id="name" required name="name" placeholder="Name">
+      </label><br><br>
 
-          <button class="sign-up" id="sign-up" type="submit" value="Enviar">sign-up</button>
-      </form>
-  </div> 
+      <label>
+        <input class="input-block" type="email" id="email" required name="email" placeholder="E-mail">
+      </label><br><br>
+
+      <input class="input-block" type="password" id="password" required name="password" placeholder="Password">
+      </label><br><br>
+
+      <button class="sign-up" id="sign-up" type="submit" value="Enviar">sign-up</button>
+      <div class="creat_count">
+        <a href="./login.html">Already have an account? sign up</a>
+      </div>
+    </form>
+  </div>
   <script type="text/javascript" src="sendform.js"></script>
-  </body>
+</body>
+
 </html>

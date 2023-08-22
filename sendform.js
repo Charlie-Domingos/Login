@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const loginForm = document.getElementById('login-form')
   const user = []
 
-  var validEmail = 'charliedev022@gmail.com'
+  var validEmail = 'teste@gmail.com'
   var validPassword = 'teste'
 
   loginForm.addEventListener('submit', function (event) {
